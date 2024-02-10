@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="container__nav">
+    <ul class="container__nav-list">
+      <li class="container__nav-list__item">
+        <a href="../index.html">Index</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="articles.html">Статті</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="catalog.html">Каталог</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="contacts.html">Контакти</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="gallery.html">Галерея</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="navigation.html">Навігація</a>
+      </li>
+      <li class="container__nav-list__item">
+        <a href="registration.html">Реєстрація</a>
+      </li>
+    </ul>
+  </nav>
+  <form class="registration__container" action="https://tests.fomenko.top/echo/index.php" method="get">
+    <h1 class="main__title">Реєстрація</h1>
+    <div class="container__list">
+      <fieldset class="container__list__reg">
+        <legend>#1 Основні данні</legend>
+        <div>
+          <label for="name">Ім'я</label>
+          <input id="name" name="name" placeholder="Ім'я" type="text">
+        </div>
+        <div>
+          <label for="lastname">Прізвище</label>
+          <input id="lastname" name="lastname" placeholder="Прізвище" type="text">
+        </div>
+        <div>
+          <label for="email">email</label>
+          <input id="email" name="email" placeholder="email" type="email">
+        </div>
+        <div>
+          <label for="password">Пароль</label>
+          <input id="password" name="password" placeholder="Пароль" type="password">
+        </div>
+        <div>
+          <label for="file">Фото</label>
+          <input id="file" name="file" type="file">
+        </div>
+        <div>
+          <label for="date">Дата народження</label>
+          <input id="date" name="date" type="date">
+        </div>
+        <div>
+          <label for="mysite">Адреса сайта</label>
+          <input id="mysite" name="mysite" placeholder="https://mysite.name" type="text">
+        </div>
+      </fieldset>
+      <fieldset class="container__list__reg">
+        <legend>#2 Стать</legend>
+        <div>
+          <input type="radio" id="male" name="male" value="male">
+          <label for="male">Чоловіча</label>
+        </div>
+        <div>
+          <input type="radio" id="female" name="female" value="female">
+          <label for="female">Жіноча</label>
+        </div>
+      </fieldset>
+      <fieldset class="container__list__reg">
+        <legend>#3 Кухня</legend>
+        <div>
+          <input type="checkbox" checked id="ua" name="kitchen" value="ukrainian">
+          <label for="ua">Українська</label>
+        </div>
+        <div>
+          <input type="checkbox" id="gr" name="kitchen" value="geotgian">
+          <label for="gr">Грузинська</label>
+        </div>
+        <div>
+          <input type="checkbox" id="it" name="kitchen" value="italian">
+          <label for="it">Італійська</label>
+        </div>
+        <div>
+          <input type="checkbox" id="fr" name="kitchen" value="french">
+          <label for="fr">Французька</label>
+        </div>
+        <div>
+          <input type="checkbox" id="us" name="kitchen" value="american">
+          <label for="us">Амерекинаська</label>
+        </div>
+        <div>
+          <input type="checkbox" id="jp" name="kitchen" value="japanes">
+          <label for="jp">Японська</label>
+        </div>
+        <div>
+          <input type="checkbox" id="ch" name="kitchen" value="chinise">
+          <label for="ch">Китайська</label>
+        </div>
+      </fieldset>
+      <fieldset class="container__list__reg">
+        <legend># Про себе</legend>
+        <div>
+          <label for="txt">Роскажи про себе</label>
+          <textarea name="txt" id="txt" placeholder="Внести інормацію" cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <fieldset class="container__list__reg">
+        <legend>#5 Дії</legend>
+        <div>
+          <button type="submit">Відправити</button>
+        </div>
+        <div>
+          <button type="reset">Видалити</button>
+        </div>
+      </fieldset>
+    </div>
+  </form>
+  <footer class="footer">
+    <div>&copy; Eugen Rodin</div>
+  </footer>  
+
+</body>
+</html>

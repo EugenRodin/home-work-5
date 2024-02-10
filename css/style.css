@@ -1,0 +1,275 @@
+
+body {
+  background-image: url(../pages/img/articles-image.jpg);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.container__h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../pages/img/aerial-view-doi-luang-chiang-dao-mountains-at-sunset-chiang-mai-thailand_335224-1314.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  font-style: oblique;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #028108;
+  z-index: 1000;
+}
+
+.footer div {
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #028108;
+}
+.container__nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+.container__nav-list__item a {
+  color: rgb(224, 231, 228);
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 72px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header__catalog {
+  background-color: antiquewhite;
+  width: auto;
+  height: 400px;
+  padding-top: 20px;
+}
+.header__catalog__title {
+  text-align: center;
+  font-family: Oswald;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+
+}
+.catalog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 120px;
+  padding-top: 60px;
+  padding-right: 20px;
+}
+.catalog__list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.catalog__list {
+  list-style: none;
+}
+.catalog__title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header__articles {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.articles__main {
+  background-color: rgb(223, 222, 221);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container__articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  text-decoration: none;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.articles__items a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(66, 23, 23);
+}
+.articles__items1{
+  color: brown;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.articles__items1 a {
+  text-decoration: none;
+  font-style: inherit;
+  font-weight: 600;
+} 
+.articles__coments {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.header__title {
+  text-align: center;
+  font-style: unset;
+}
+.contacts {
+  background-color: rgb(235, 235, 235);
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.contacts__container__items {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: rgb(136, 89, 172);
+}
+.contacts__container, .form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+.feedback__container {
+  background-color: rgb(179, 180, 180);
+  display: grid;
+  gap: 10px;
+  padding: 10px 10px 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gallery {
+  background-color: azure;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.gallery__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery__container__list {
+  display: grid;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.main__title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding-top: 20px;
+}
+.main__nav {
+  background-color: rgb(224, 224, 224);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;
+  padding-top: 70px;
+}
+.nav__in {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.main__nav__list {
+  display: grid;
+  gap: 13px;
+}
+.nav__in {
+  text-align: center;
+}
+.top a {
+  text-decoration: none;
+  color: black;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.r1, .r2, .r3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.comments {
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+}
+.registration__container {
+  background-color: rgb(233, 233, 233);
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.container__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.container__list__reg {
+  width: 400px;
+  background-color: rgb(255, 250, 243);
+  display: grid;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.china__container, .ukraine__container, .switzarland__container {
+  background-color: aliceblue;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.china__items, .ukraine__items, .switzarland__items {
+padding: 40px 20px 20px 20px;
+}
+.comments__art {
+  width: 500px;
+  background-color: rgb(226, 226, 226);
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.comments__items {
+color: rgb(44, 2, 63);
+}
+.comments__line {
+  color: rgb(247, 88, 25);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
