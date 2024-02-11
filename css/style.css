@@ -95,6 +95,10 @@ body {
 .catalog__title {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.catalog__list2__item {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #858310;
+}
 .header__articles {
   text-align: center;
   margin-top: 50px;
