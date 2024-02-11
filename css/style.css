@@ -209,6 +209,10 @@ body {
   display: grid;
   gap: 13px;
 }
+div.main__nav__list .r1 {
+  font-weight: 800;
+  color: rgb(0, 39, 124);
+}
 .nav__in {
   text-align: center;
 }
