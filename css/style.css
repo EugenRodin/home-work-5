@@ -59,7 +59,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header__catalog {
-  background-color: antiquewhite;
+  background-color: rgb(192, 190, 188);
   width: auto;
   height: 400px;
   padding-top: 20px;
